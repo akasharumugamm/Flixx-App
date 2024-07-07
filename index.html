@@ -50,8 +50,10 @@
         <form action="/search.html" class="search-form">
           <!-- movies and shows radio box -->
           <div class="search-radio">
+            <label for="movie">Movies</label>
             <input type="radio" id="movie" name="type" value="movie" checked />
             <label for="movies">Movies</label>
+            <label for="tv">TV Shows</label>
             <input type="radio" id="tv" name="type" value="tv" />
             <label for="shows">TV Shows</label>
           </div>
@@ -62,7 +64,7 @@
               id="search-term"
               placeholder="Enter search term"
             />
-            <button class="btn" type="submit">
+            <button class="btn" type="submit" title="Search"></button>
               <i class="fas fa-search"></i>
             </button>
           </div>
@@ -81,13 +83,13 @@
       <div class="container">
         <div class="logo"><span>FLIXX</span></div>
         <div class="social-links">
-          <a href="https://www.facebook.com" target="_blank"
+          <a href="https://www.facebook.com" target="_blank" rel="noopener" title="Facebook"></a>
             ><i class="fab fa-facebook-f"></i
           ></a>
-          <a href="https://www.twitter.com" target="_blank"
+          <a href="https://www.twitter.com" target="_blank" rel="noopener" title="Twitter"></a>
             ><i class="fab fa-twitter"></i
           ></a>
-          <a href="https://www.instagram.com" target="_blank"
+          <a href="https://www.instagram.com" target="_blank" rel="noopener" title="Instagram"></a>
             ><i class="fab fa-instagram"></i
           ></a>
         </div>
