@@ -50,7 +50,7 @@ async function displayPopularMovies() {
   });
 }
 
-// Display 20 most popular tv shows
+// Display 20 most popular shows
 async function displayPopularShows() {
   const { results } = await fetchAPIData('tv/popular');
 
@@ -228,7 +228,7 @@ async function displayShowDetails() {
   document.querySelector('#show-details').appendChild(div);
 }
 
-// Display Backdrop On Details Pages
+// This function creates an overlay div with a background image
 function displayBackgroundImage(type, backgroundPath) {
   const overlayDiv = document.createElement('div');
   overlayDiv.style.backgroundImage = `url(https://image.tmdb.org/t/p/original/${backgroundPath})`;
