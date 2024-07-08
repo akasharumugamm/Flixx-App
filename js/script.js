@@ -483,7 +483,7 @@ function addCommasToNumber(number) {
   return number.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ',');
 }
 
-// Init App
+// The main function that initializes the page
 function init() {
   switch (global.currentPage) {
     case '/':
